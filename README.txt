@@ -68,21 +68,22 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n >= 33 and r < 1947
+      All minimal circles with n >= 33 and r < 1965
       All minimal circles with n >= 49 and r < 2113
       All minimal circles with n >= 81 and r < 2776
       All minimal circles with n >= 97 and r < 3000
-      All minimal circles with n >= 193 and r < 7117
+      All minimal circles with n >= 193 and r < 7130
       All minimal circles with n >= 289 and r < 8609
-      All minimal circles with n >= 353 and r < 11025
+      All minimal circles with n >= 353 and r < 11031
 
   - Taking lattice circles centred on the origin passing through a
     number of lattice points and scaling down the circles to find smaller
     lattice circles, not necessarily centred on the origin.
 
-    The following searches have currently been completed:
+    Good numbers to try are products of Pythogorean primes (of the
+    form 4k+1) possibly with an additional factor of 2.
 
-      205 entries from OEIS sequence b018782.txt.
+    OEIS A016032 is a good source of numbers.
 
 
 
