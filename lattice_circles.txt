@@ -62,6 +62,7 @@ the following circles are verified minimal radius:
   256      3849.781    29641625/2        (1/2, 1/2)
   288      6207.585    77068225/2        (1/2, 1/2)
   320      8608.372    148208125/2       (1/2, 1/2)
+  384     11024.095    243061325/2       (1/2, 1/2)
 
 
 the following circles are smallest radius found so far:
@@ -333,7 +334,6 @@ the following circles are smallest radius found so far:
    376       3747770.311    1376486666140625/98       (1/2, 1/14)
    378        400562.5      641801265625/4            (1/2, 0)
    380       3747770.311    1376486666140625/98       (5/14, 5/14)
-   384         11024.095    243061325/2               (1/2, 1/2)
    387       7259691.084    8537904570372125/162      (1/6, 1/18)
    390      22445312.5      2015168212890625/4        (1/2, 0)
    392        800662.582    1282121140625/2           (1/2, 1/2)
@@ -531,88 +531,88 @@ the following circles are smallest radius found so far:
 lattice circles ordered by radius:
 
            r           n
-           0           0  [minimal]
-           0           1  [minimal]
-           0.5         2  [minimal]
-           0.707       4  [minimal]
-           1.179       3  [minimal]
-           1.581       8  [minimal]
-           2.5         6  [minimal]
-           3.536      12  [minimal]
-           5.701      16  [minimal]
-           5.893       5  [minimal]
-          12.5        10  [minimal]
-          12.748      24  [minimal]
-          15.321       9  [minimal]
-          17.678      20  [minimal]
-          23.505      32  [minimal]
-          23.891       7  [minimal]
-          32.5        18  [minimal]
-          45.962      36  [minimal]
-          52.559      48  [minimal]
-          57.536      11  [minimal]
-          62.5        14  [minimal]
-          63.738      40  [minimal]
-          76.603      15  [minimal]
-          88.388      28  [minimal]
-         111.622      13  [minimal]
-         117.527      64  [minimal]
-         162.5        30  [minimal]
-         189.506      72  [minimal]
-         229.810      60  [minimal]
-         260.451      27  [minimal]
-         262.797      80  [minimal]
-         283.042      96  [minimal]
-         318.689      56  [minimal]
-         349.980      21  [minimal]
-         349.980      22  [minimal]
-         552.5        54  [minimal]
-         558.109      23  [minimal]
-         567.076      17  [minimal]
-         567.076      19  [minimal]
-         601.102      26  [minimal]
-         632.900     128  [minimal]
-         781.353     108  [minimal]
-         812.5        42  [minimal]
-         947.530     120  [minimal]
-         995.842      25  [minimal]
-        1020.521     144  [minimal]
-        1149.049      84  [minimal]
-        1302.255      45  [minimal]
-        1313.987     112  [minimal]
-        1415.208     160  [minimal]
-        1721.674     192  [minimal]
+           0           0    [minimal]
+           0           1    [minimal]
+           0.5         2    [minimal]
+           0.707       4    [minimal]
+           1.179       3    [minimal]
+           1.581       8    [minimal]
+           2.5         6    [minimal]
+           3.536      12    [minimal]
+           5.701      16    [minimal]
+           5.893       5    [minimal]
+          12.5        10    [minimal]
+          12.748      24    [minimal]
+          15.321       9    [minimal]
+          17.678      20    [minimal]
+          23.505      32    [minimal]
+          23.891       7    [minimal]
+          32.5        18    [minimal]
+          45.962      36    [minimal]
+          52.559      48    [minimal]
+          57.536      11    [minimal]
+          62.5        14    [minimal]
+          63.738      40    [minimal]
+          76.603      15    [minimal]
+          88.388      28    [minimal]
+         111.622      13    [minimal]
+         117.527      64    [minimal]
+         162.5        30    [minimal]
+         189.506      72    [minimal]
+         229.810      60    [minimal]
+         260.451      27    [minimal]
+         262.797      80    [minimal]
+         283.042      96    [minimal]
+         318.689      56    [minimal]
+         349.980      21    [minimal]
+         349.980      22    [minimal]
+         552.5        54    [minimal]
+         558.109      23    [minimal]
+         567.076      17    [minimal]
+         567.076      19    [minimal]
+         601.102      26    [minimal]
+         632.900     128    [minimal]
+         781.353     108    [minimal]
+         812.5        42    [minimal]
+         947.530     120    [minimal]
+         995.842      25    [minimal]
+        1020.521     144    [minimal]
+        1149.049      84    [minimal]
+        1302.255      45    [minimal]
+        1313.987     112    [minimal]
+        1415.208     160    [minimal]
+        1721.674     192    [minimal]
         2091.997      29
         2112.5        50
         2209.709      44
         2240.966      43
-        2762.5        90  [minimal]
+        2762.5        90    [minimal]
         2790.546      31
         2883.211      33
-        2987.526     100  [minimal]
+        2987.526     100    [minimal]
         3005.510      46
         3237.034      39
         3656.361      52
-        3849.781     256  [minimal]
-        3906.765     180  [minimal]
+        3849.781     256    [minimal]
+        3906.765     180    [minimal]
         3912.896      37
         3912.896      38
-        4207.715     216  [minimal]
+        4207.715     216    [minimal]
         4429.005      34
         4576.496      41
-        4737.648     168  [minimal]
+        4737.648     168    [minimal]
         4979.210      35
         5010.952      53
-        5102.604     240  [minimal]
-        6207.585     288  [minimal]
+        5102.604     240    [minimal]
+        6207.585     288    [minimal]
         6511.275      63
-        7076.038     224  [minimal]
+        7076.038     224    [minimal]
         7553.079      81
         7967.218      88
-        8608.372     320  [minimal]
+        8608.372     320    [minimal]
         9445.224      51
        10562.5        70
-       11024.095     384
+       11024.095     384    [minimal]
        12317.886     200
        13812.5       126
        14937.631     140
