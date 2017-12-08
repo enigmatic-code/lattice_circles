@@ -64,17 +64,16 @@ The list is composed from several methods:
       All minimal circles with n > 0 and r < 1800
 
   - Exhuastive search for circles with a minimum number of points
-    below a specific radis.
+    below a specific radius.
 
     The following searches have currently been completed:
 
-      All minimal circles with n >= 33 and r < 2040
-      All minimal circles with n >= 49 and r < 2113
+      All minimal circles with n >= 33 and r < 2210
       All minimal circles with n >= 81 and r < 2817
       All minimal circles with n >= 97 and r < 3000
-      All minimal circles with n >= 193 and r < 7310
+      All minimal circles with n >= 193 and r < 7650
       All minimal circles with n >= 289 and r < 8610
-      All minimal circles with n >= 353 and r < 11050
+      All minimal circles with n >= 353 and r < 11060
 
   - Taking lattice circles centred on the origin passing through a
     number of lattice points and scaling down the circles to find smaller
