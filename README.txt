@@ -68,10 +68,10 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n >= 33 and r < 2210
+      All minimal circles with n >= 33 and r < 2245
       All minimal circles with n >= 81 and r < 2817
       All minimal circles with n >= 97 and r < 3000
-      All minimal circles with n >= 193 and r < 7650
+      All minimal circles with n >= 193 and r < 7680
       All minimal circles with n >= 289 and r < 8610
       All minimal circles with n >= 353 and r < 11060
 
