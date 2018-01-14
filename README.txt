@@ -35,7 +35,7 @@ which gives the following rational numbers:
 
   xa/xb = the x coordinate of the centre of the circle
   
-  xa/xb = the y coordinate of the centre of the circle
+  ya/yb = the y coordinate of the centre of the circle
 
 the equation of the circle is thus:
 
@@ -69,10 +69,9 @@ The list is composed from several methods:
     The following searches have currently been completed:
 
       All minimal circles with n >= 33 and r < 2245
-      All minimal circles with n >= 81 and r < 2817
+      All minimal circles with n >= 49 and r < 2820
       All minimal circles with n >= 97 and r < 3000
-      All minimal circles with n >= 193 and r < 7680
-      All minimal circles with n >= 289 and r < 8610
+      All minimal circles with n >= 193 and r < 10100
       All minimal circles with n >= 353 and r < 11060
 
   - Taking lattice circles centred on the origin passing through a
