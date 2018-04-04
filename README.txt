@@ -69,7 +69,7 @@ The list is composed from several methods:
     The following searches have currently been completed:
 
       All minimal circles with n >= 33 and r < 2245
-      All minimal circles with n >= 49 and r < 3300
+      All minimal circles with n >= 49 and r < 3660
       All minimal circles with n >= 193 and r < 12320
 
   - Taking lattice circles centred on the origin passing through a
