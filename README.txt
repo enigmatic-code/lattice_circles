@@ -61,7 +61,7 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n > 0 and r < 1800
+      All minimal circles with n > 0 and r < 1802
 
   - Exhuastive search for circles with a minimum number of points
     below a specific radius.
@@ -79,7 +79,7 @@ The list is composed from several methods:
     Good numbers to try are products of Pythogorean primes (of the
     form 4k+1) possibly with an additional factor of 2.
 
-    OEIS A016032 is a good source of numbers.
+    OEIS A018782 and A016032 are good sources of numbers.
 
 
 
