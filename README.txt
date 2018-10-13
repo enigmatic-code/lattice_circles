@@ -61,15 +61,16 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n > 0 and r < 2046
+      All minimal circles with n > 0 and r < 2092
 
   - Exhuastive search for circles with a minimum number of points
     below a specific radius.
 
     The following searches have currently been completed:
 
-      All minimal circles with n >= 33 and r < 2245
-      All minimal circles with n >= 49 and r < 3660
+      All minimal circles with n >= 33 and r < 2246
+      All minimal circles with n >= 49 and r < 3661
+      All minimal circles with n >= 81 and r < 3761
       All minimal circles with n >= 193 and r < 12320
       All minimal circles with n >= 495 and r < 13001
 
@@ -83,8 +84,16 @@ The list is composed from several methods:
     OEIS A018782 and A016032 are good sources of numbers.
 
 
-
 See also:
 
 https://enigmaticcode.wordpress.com/2013/10/15/enigma-136-twelve-point-square/
 
+
+
+I welcome any additions to the list (particularly for circles with less than
+1,000 points, or radius less than 1,000,000).
+
+Also any ideas on fast algorithms for finding minimal circles would be
+appreciated.
+
+-- Jim Randell
