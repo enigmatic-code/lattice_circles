@@ -61,7 +61,7 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n > 0 and r < 2092
+      All minimal circles with n > 0 and r < 2095
 
   - Exhuastive search for circles with a minimum number of points
     below a specific radius.
@@ -70,7 +70,7 @@ The list is composed from several methods:
 
       All minimal circles with n >= 33 and r < 2246
       All minimal circles with n >= 49 and r < 3661
-      All minimal circles with n >= 81 and r < 3761
+      All minimal circles with n >= 81 and r < 3913
       All minimal circles with n >= 193 and r < 12320
       All minimal circles with n >= 495 and r < 13001
 
