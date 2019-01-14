@@ -68,11 +68,11 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n >= 33 and r < 2246
-      All minimal circles with n >= 49 and r < 3661
-      All minimal circles with n >= 81 and r < 5815
-      All minimal circles with n >= 193 and r < 12320
-      All minimal circles with n >= 497 and r < 15608
+      All minimal circles with n > 32 and r < 2246
+      All minimal circles with n > 48 and r < 3661
+      All minimal circles with n > 80 and r < 5950
+      All minimal circles with n > 192 and r < 12320
+      All minimal circles with n > 496 and r < 16017
 
   - Taking lattice circles centred on the origin passing through a
     number of lattice points and scaling down the circles to find smaller
