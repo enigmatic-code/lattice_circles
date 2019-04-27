@@ -70,9 +70,9 @@ The list is composed from several methods:
 
       All minimal circles with n >  32 and r <  2246
       All minimal circles with n >  48 and r <  3661
-      All minimal circles with n >  80 and r <  7000
+      All minimal circles with n >  80 and r <  7068
       All minimal circles with n > 192 and r < 12320
-      All minimal circles with n > 496 and r < 17716
+      All minimal circles with n > 496 and r < 17766
 
   - Taking lattice circles centred on the origin passing through a
     number of lattice points and scaling down the circles to find smaller
@@ -91,7 +91,7 @@ https://enigmaticcode.wordpress.com/2013/10/15/enigma-136-twelve-point-square/
 
 
 I welcome any additions to the list (particularly for circles with less than
-1,000 points, or radius less than 1,000,000).
+1,000 points, or radius less than 1,000,000 (preferably both)).
 
 Also any ideas on fast algorithms for finding minimal circles would be
 appreciated.
