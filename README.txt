@@ -11,6 +11,7 @@ Schinzel circles can be constructed that pass through any given exact
 number of lattice points, but these circles are almost always much
 larger than than a minimal radius circles.
 
+
 The list of lattice circles given in the Python source code:
 
   lattice_circles.py
@@ -53,6 +54,7 @@ where there are multiple possible centres in this triangle only one is
 given (although others may be mentioned in the comments of the Python
 code, and given in the alt_xy dict).
 
+
 When run as a standalone program the lattice_circles.py program
 produces the text summary of the list found in the file:
 lattice_circles.txt
@@ -74,9 +76,9 @@ The list is composed from several methods:
 
       All minimal circles with n >  32 and r <  2246
       All minimal circles with n >  48 and r <  3661
-      All minimal circles with n >  80 and r <  7127
+      All minimal circles with n >  80 and r <  7138
       All minimal circles with n > 192 and r < 12320
-      All minimal circles with n > 496 and r < 17850
+      All minimal circles with n > 496 and r < 17855
 
   - Taking lattice circles centred on the origin passing through a
     number of lattice points and scaling down the circles to find smaller
@@ -91,7 +93,6 @@ The list is composed from several methods:
 See also:
 
 https://enigmaticcode.wordpress.com/2013/10/15/enigma-136-twelve-point-square/
-
 
 
 I welcome any additions or improvements to the list (particularly for
