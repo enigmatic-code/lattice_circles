@@ -76,9 +76,9 @@ The list is composed from several methods:
 
       All minimal circles with n >  32 and r <  2246
       All minimal circles with n >  48 and r <  3661
-      All minimal circles with n >  80 and r <  7164
+      All minimal circles with n >  80 and r <  7170
       All minimal circles with n > 192 and r < 12320
-      All minimal circles with n > 496 and r < 17888
+      All minimal circles with n > 496 and r < 17900
 
   - Taking lattice circles centred on the origin passing through a
     number of lattice points and scaling down the circles to find smaller
