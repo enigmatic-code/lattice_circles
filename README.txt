@@ -59,7 +59,7 @@ When run as a standalone program the lattice_circles.py program
 produces the text summary of the list found in the file:
 lattice_circles.txt
 
-There is a circle listed for every n up to n = 1284 (but most of these
+There is a circle listed for every n up to n = 1524 (but most of these
 are not verified minimal circles).
 
 
@@ -79,7 +79,7 @@ The list is composed from several methods:
 
       All minimal circles with n >  32 and r <  2246
       All minimal circles with n >  48 and r <  3661
-      All minimal circles with n >  80 and r <  7270
+      All minimal circles with n >  80 and r <  7292
       All minimal circles with n > 192 and r < 12320
       All minimal circles with n > 496 and r < 18010
 
@@ -103,7 +103,7 @@ https://enigmaticcode.wordpress.com/2013/10/15/enigma-136-twelve-point-square/
 
 
 I welcome any additions or improvements to the list (particularly for
-circles with n < 1281, or new circles with a radius less than
+circles with n < 1501, or new circles with a radius less than
 1,000,000,000 (or preferably, both)).
 
 Also any ideas on fast algorithms for finding minimal circles would be
