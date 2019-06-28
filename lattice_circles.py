@@ -3772,7 +3772,7 @@ if __name__ == "__main__":
   # output verified minimum radius lattice circles
   print("the following circles are verified minimal radius:\n")
 
-  fmt="  {n:>3}    {r:>10}    {r2:<14}    {centre}{s}"
+  fmt="{n:>6}    {r:>10}    {r2:<14}    {centre}{s}"
   print(fmt.format(n='n', r='r    ', r2='r^2', centre='centre', s=' ...'))
   for n in sorted(minimal.keys()):
     (r2, (x, y)) = minimal[n]
@@ -3783,7 +3783,7 @@ if __name__ == "__main__":
   # output verified best radius lattice circles
   print("\n\nthe following circles are smallest radius found so far:\n")
 
-  fmt=" {n:>5}  {r:>18}   {r2:<30}  {centre}{s}"
+  fmt="{n:>6}  {r:>18}  {r2:<33}  {centre}{s}"
   print(fmt.format(n='n', r='r    ', r2='r^2', centre='centre', s=' ...'))
   for n in sorted(best.keys()):
     if n in minimal: continue
