@@ -93,7 +93,8 @@ The list is composed from several methods:
     OEIS A018782 and A016032 are good sources of numbers.
 
   - A list of improvements for many circles with n > 196 contributed
-    by Rei Igarashi.
+    by Rei Igarashi. Contributions that I have not (yet) verified are
+    listed in the file [ lattice_circles_unverified.py ].
 
 
 See also:
