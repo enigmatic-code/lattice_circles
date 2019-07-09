@@ -79,7 +79,7 @@ The list is composed from several methods:
 
       All minimal circles with n >  32 and r <  2246
       All minimal circles with n >  48 and r <  3661
-      All minimal circles with n >  80 and r <  7555
+      All minimal circles with n >  80 and r <  7559
       All minimal circles with n > 192 and r < 12320
       All minimal circles with n > 496 and r < 18310
 
@@ -103,8 +103,8 @@ https://enigmaticcode.wordpress.com/2013/10/15/enigma-136-twelve-point-square/
 
 
 I welcome any additions or improvements to the list (particularly for
-circles with n < 2171, or circles with a radius less than
-40,000,000,000 (= 4e10) (or preferably, both)).
+circles with n < 2171, or circles with a radius less than 5e+10 (or
+preferably, both)).
 
 Also any ideas on fast algorithms for finding minimal circles would be
 appreciated.
