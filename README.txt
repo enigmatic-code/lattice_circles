@@ -70,7 +70,7 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n > 0 and r < 2145
+      All minimal circles with n > 0 and r < 2201
 
   - Exhuastive search for circles with a minimum number of points
     below a specific radius.
@@ -99,7 +99,7 @@ The list is composed from several methods:
 
 See also:
 
-https://enigmaticcode.wordpress.com/2013/10/15/enigma-136-twelve-point-square/
+[ https://enigmaticcode.wordpress.com/2013/10/15/enigma-136-twelve-point-square/ ]
 
 
 I welcome any additions or improvements to the list (particularly for
