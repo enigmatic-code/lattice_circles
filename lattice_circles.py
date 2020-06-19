@@ -8,7 +8,7 @@ from __future__ import print_function
 # fractions a/b are expressed as (a, b)
 minimal = {
 
-  # these are minimal found by exhaustive search up to r < 2201 (using lattice-circles8t.py)
+  # these are minimal found by exhaustive search up to r < 2210 (using lattice-circles8t.py)
   0: ((0, 1), ((1, 2), (1, 2))), # or any non-lattice point (including non rational points)
   1: ((0, 1), ((0, 1), (0, 1))),
   2: ((1, 4), ((1, 2), (0, 1))),
