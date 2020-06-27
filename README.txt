@@ -70,14 +70,13 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n > 0 and r < 2241
+      All minimal circles with n > 0 and r < 2250
 
   - Exhuastive search for circles with a minimum number of points
     below a specific radius.
 
     The following searches have currently been completed:
 
-      All minimal circles with n >  32 and r <  2247
       All minimal circles with n >  48 and r <  3661
       All minimal circles with n >  80 and r <  7968
       All minimal circles with n > 192 and r < 12320
