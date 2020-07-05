@@ -70,7 +70,7 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n > 0 and r < 2285
+      All minimal circles with n > 0 and r < 2290
 
   - Exhuastive search for circles with a minimum number of points
     below a specific radius.
@@ -102,7 +102,7 @@ See also:
 
 
 I welcome any additions or improvements to the list (particularly for
-circles with n < 3613, or circles with r < 2.5e+12 (or preferably,
+circles with n < 2500, or circles with r < 1e+12 (or preferably,
 both)).
 
 If anyone has any use for these circles I would be interested to hear
