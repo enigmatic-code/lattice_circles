@@ -70,7 +70,7 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n > 0 and r < 2734
+      All minimal circles with n > 0 and r < 2750
 
   - Exhuastive search for circles with a minimum number of points
     below a specific radius.
@@ -93,7 +93,8 @@ The list is composed from several methods:
 
   - A list of improvements for many circles with n > 196 contributed
     by Rei Igarshi. Contributions that I have not verified are listed
-    in the file [ lattice_circles_unverified.py ].
+    in the file [ lattice_circles_unverified.py ], but this file contains
+    no improvements to entries listed in lattice_circles.py.
 
 
 See also:
