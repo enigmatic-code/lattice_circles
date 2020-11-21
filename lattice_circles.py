@@ -4,7 +4,7 @@
 from __future__ import print_function
 
 # all minimal circles with r < MAX_R have been found by exhaustive searching
-MAX_R = 2734
+MAX_R = 2750
 
 # smallest radius found so far
 # n -> (radius^2, centre) (other centres may exist)
@@ -8973,19 +8973,22 @@ if __name__ == "__main__":
   argv = sys.argv[1:]
   if argv:
     for n in argv:
-      n = int(n)
-      x = best.get(n, None)
-      if x:
-        print("[{x}]".format(x=('minimal' if n in minimal else 'best')))
-        print("n = {n}".format(n=n))
-        ((r2n, r2d), ((xn, xd), (yn, yd))) = x
-        print("r = {r} ({f:.2e})".format(r=R((r2n, r2d)).strip(), f=(float(r2n) / float(r2d)) ** 0.5))
-        print("r^2 = {r2n}/{r2d}".format(r2n=r2n, r2d=r2d))
-        print("(x, y) = ({xn}/{xd}, {yn}/{yd})".format(xn=xn, xd=xd, yn=yn, yd=yd))
-        x = alt_xy.get(n, None)
+      if n == 'info':
+        print("{n} entries ({m} minimal)".format(n=len(best), m=len(minimal)))
+      else:
+        n = int(n)
+        x = best.get(n, None)
         if x:
-          for ((xn, xd), (yn, yd)) in x:
-            print("(x, y) = ({xn}/{xd}, {yn}/{yd})".format(xn=xn, xd=xd, yn=yn, yd=yd))
+          print("[{x}]".format(x=('minimal' if n in minimal else 'best')))
+          print("n = {n}".format(n=n))
+          ((r2n, r2d), ((xn, xd), (yn, yd))) = x
+          print("r = {r} (= {f:.2e})".format(r=R((r2n, r2d)).strip(), f=(float(r2n) / float(r2d)) ** 0.5))
+          print("r^2 = {r2n}/{r2d}".format(r2n=r2n, r2d=r2d))
+          print("(x, y) = ({xn}/{xd}, {yn}/{yd})".format(xn=xn, xd=xd, yn=yn, yd=yd))
+          x = alt_xy.get(n, None)
+          if x:
+            for ((xn, xd), (yn, yd)) in x:
+              print("(x, y) = ({xn}/{xd}, {yn}/{yd})".format(xn=xn, xd=xd, yn=yn, yd=yd))
       print("--")
 
   else:
