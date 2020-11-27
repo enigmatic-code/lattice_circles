@@ -4,7 +4,7 @@
 from __future__ import print_function
 
 # all minimal circles with r < MAX_R have been found by exhaustive searching
-MAX_R = 2750
+MAX_R = 2763
 
 # smallest radius found so far
 # n -> (radius^2, centre) (other centres may exist)
@@ -8974,7 +8974,9 @@ if __name__ == "__main__":
   if argv:
     for n in argv:
       if n == 'info':
+        print("[info]")
         print("{n} entries ({m} minimal)".format(n=len(best), m=len(minimal)))
+        print("MAX_R = {MAX_R}".format(MAX_R=MAX_R))
       else:
         n = int(n)
         x = best.get(n, None)
