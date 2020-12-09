@@ -4,7 +4,7 @@
 from __future__ import print_function
 
 # all minimal circles with r < MAX_R have been found by exhaustive searching
-MAX_R = 2763
+MAX_R = 2791
 
 # smallest radius found so far
 # n -> (radius^2, centre) (other centres may exist)
@@ -43,8 +43,9 @@ minimal = {
   28: ((15625, 2), ((1, 2), (1, 2))),
   29: ((3159797225, 722), ((13, 38), (5, 38))), # or (15/38, 11/38)
   30: ((105625, 4), ((1, 2), (0, 1))),
-  # 31: [first non-verified minimal circle]
+  31: ((763140625, 98), ((3, 14), (3, 14))),
   32: ((1105, 2), ((1, 2), (1, 2))),
+  # 33: [first non-verified minimal circle]
   36: ((4225, 2), ((1, 2), (1, 2))),
   40: ((8125, 2), ((1, 2), (1, 2))),
   42: ((2640625, 4), ((1, 2), (0, 1))),
@@ -91,7 +92,6 @@ minimal = {
 # these are best found so far, but not necessarily minimal
 maybe = {
 
-  31: ((763140625, 98), ((3, 14), (3, 14))),
   33: ((1346691125, 162), ((7, 18), (1, 6))),
   34: ((11338095925, 578), ((1, 2), (15, 34))),
   35: ((446265625, 18), ((1, 6), (1, 6))),
