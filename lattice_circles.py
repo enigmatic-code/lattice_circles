@@ -1,10 +1,10 @@
-#!/usr/bin/env python3.8 -t
+#!/usr/bin/env python3 -t
 # -*- mode: Python; py-indent-offset: 2; -*-
 
 from __future__ import print_function
 
 # all minimal circles with r < MAX_R have been found by exhaustive searching
-MAX_R = 2791
+MAX_R = 2888
 
 # smallest radius found so far
 # n -> (radius^2, centre) (other centres may exist)
@@ -45,7 +45,8 @@ minimal = {
   30: ((105625, 4), ((1, 2), (0, 1))),
   31: ((763140625, 98), ((3, 14), (3, 14))),
   32: ((1105, 2), ((1, 2), (1, 2))),
-  # 33: [first non-verified minimal circle]
+  33: ((1346691125, 162), ((7, 18), (1, 6))),
+  # 34: [first non-verified minimal circle]
   36: ((4225, 2), ((1, 2), (1, 2))),
   40: ((8125, 2), ((1, 2), (1, 2))),
   42: ((2640625, 4), ((1, 2), (0, 1))),
@@ -92,7 +93,6 @@ minimal = {
 # these are best found so far, but not necessarily minimal
 maybe = {
 
-  33: ((1346691125, 162), ((7, 18), (1, 6))),
   34: ((11338095925, 578), ((1, 2), (15, 34))),
   35: ((446265625, 18), ((1, 6), (1, 6))),
   37: ((3705203125, 242), ((9, 22), (1, 22))),
@@ -8975,7 +8975,8 @@ if __name__ == "__main__":
     for n in argv:
       if n == 'info':
         print("[info]")
-        print("{n} entries ({m} minimal)".format(n=len(best), m=len(minimal)))
+        print("{n} minimal entries".format(n=len(minimal)))
+        print("{n} total entries".format(n=len(best)))
         print("MAX_R = {MAX_R}".format(MAX_R=MAX_R))
       else:
         n = int(n)
