@@ -34,6 +34,7 @@ the following circles are verified minimal radius:
     30       162.5      105625/4          (1/2, 0)
     31      2790.546    763140625/98      (3/14, 3/14)
     32        23.505    1105/2            (1/2, 1/2)
+    33      2883.211    1346691125/162    (7/18, 1/6)
     36        45.962    4225/2            (1/2, 1/2)
     40        63.738    8125/2            (1/2, 1/2)
     42       812.5      2640625/4         (1/2, 0)
@@ -78,7 +79,6 @@ the following circles are verified minimal radius:
 the following circles are smallest radius found so far:
 
      n                r      r^2                                 centre ...
-    33             2883.211  1346691125/162                      (7/18, 1/6)
     34             4429.005  11338095925/578                     (1/2, 15/34)
     35             4979.210  446265625/18                        (1/6, 1/6)
     37             3912.896  3705203125/242                      (9/22, 1/22)
@@ -8553,7 +8553,7 @@ lattice circles ordered by radius:
             2240.966       43    [minimal]
             2762.5         90    [minimal]
             2790.546       31    [minimal]
-            2883.211       33
+            2883.211       33    [minimal]
             2987.526      100    [minimal]
             3005.510       46
             3237.034       39
