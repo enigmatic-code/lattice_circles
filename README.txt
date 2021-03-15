@@ -77,7 +77,7 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n >  48 and r <  3664
+      All minimal circles with n >  48 and r <  4027
       All minimal circles with n >  80 and r <  7968
       All minimal circles with n > 192 and r < 12320
       All minimal circles with n > 496 and r < 24561
