@@ -9,7 +9,7 @@ The centre of a lattice circle does not have to be on a lattice point.
 
 Schinzel circles can be constructed that pass through any given exact
 number of lattice points, but these circles are almost always much
-larger than than a minimal radius circle.
+larger than a minimal radius circle.
 
 
 The list of lattice circles given in the Python source code:
@@ -70,9 +70,9 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n > 0 and r < 3325
+      All minimal circles with n > 0 and r < 3350
 
-  - Exhuastive search for circles with a minimum number of points
+  - Exhaustive search for circles with a minimum number of points
     below a specific radius.
 
     The following searches have currently been completed:
@@ -86,7 +86,7 @@ The list is composed from several methods:
     number of lattice points and scaling down the circles to find smaller
     lattice circles, not necessarily centred on the origin.
 
-    Good numbers to try are products of Pythogorean primes (of the
+    Good numbers to try are products of Pythagorean primes (of the
     form 4k+1) possibly with an additional factor of 2.
 
     OEIS A018782 and A016032 are good sources of numbers.
