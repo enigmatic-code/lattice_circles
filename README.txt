@@ -59,7 +59,7 @@ When run as a standalone program the lattice_circles.py program
 produces the text summary of the list found in the file:
 lattice_circles.txt
 
-There is a circle listed for every n < 4285 (but most of these are not
+There is a circle listed for every n < 4633 (but most of these are not
 verified minimal circles).
 
 
@@ -70,7 +70,7 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n > 0 and r < 3650
+      All minimal circles with n > 0 and r < 3653
 
 
   - Exhaustive search for circles with a minimum number of points
