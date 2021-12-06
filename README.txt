@@ -70,7 +70,7 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n > 0 and r < 3900
+      All minimal circles with n > 0 and r < 3914
 
 
   - Exhaustive search for circles with a minimum number of points
