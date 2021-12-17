@@ -4,7 +4,7 @@
 from __future__ import print_function
 
 # all minimal circles with r < MAX_R have been found by exhaustive searching
-MAX_R = 3920
+MAX_R = 3931
 
 # smallest radius found so far
 # n -> (radius^2, centre) (other centres may exist)
