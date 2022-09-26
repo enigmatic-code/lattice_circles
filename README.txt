@@ -39,7 +39,7 @@ which gives the following rational numbers:
   r2a/r2b = the square of the radius of the circle
 
   xa/xb = the x coordinate of the centre of the circle
-  
+
   ya/yb = the y coordinate of the centre of the circle
 
 the equation of the circle is thus:
@@ -70,7 +70,7 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n > 0 and r < 4000
+      All minimal circles with n > 0 and r < 4001
 
 
   - Exhaustive search for circles with a minimum number of points
@@ -78,8 +78,9 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n >  48 and r <  5014
+      All minimal circles with n >  48 and r <  5015
       All minimal circles with n >  80 and r <  7968
+      All minimal circles with n > 112 and r <  7975
       All minimal circles with n > 192 and r < 12320
       All minimal circles with n > 496 and r < 24561
 
