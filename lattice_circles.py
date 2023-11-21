@@ -4,7 +4,7 @@
 from __future__ import print_function
 
 # all minimal circles with r < MAX_R have been found by exhaustive searching
-MAX_R = 4420
+MAX_R = 4430
 
 # smallest radius found so far
 # n -> (radius^2, centre) (other centres may exist)
@@ -46,7 +46,8 @@ minimal = {
   31: ((763140625, 98), ((3, 14), (3, 14))),
   32: ((1105, 2), ((1, 2), (1, 2))),
   33: ((1346691125, 162), ((7, 18), (1, 6))),
-  # 34: [first non-verified minimal circle]
+  34: ((11338095925, 578), ((1, 2), (15, 34))),
+  # 35: [first non-verified minimal circle]
   36: ((4225, 2), ((1, 2), (1, 2))),
   37: ((3705203125, 242), ((9, 22), (1, 22))),
   38: ((3705203125, 242), ((1, 2), (7, 22))),
@@ -103,7 +104,6 @@ minimal = {
 # these are best found so far, but not necessarily minimal
 maybe = {
 
-  34: ((11338095925, 578), ((1, 2), (15, 34))),
   35: ((446265625, 18), ((1, 6), (1, 6))),
   41: ((2052543025, 98), ((1, 14), (1, 14))),
   47: ((132468422125, 484), ((2, 11), (1, 22))),
@@ -9330,7 +9330,7 @@ if __name__ == "__main__":
     # output verified minimum radius lattice circles
     print("the following circles are verified minimal radius:\n")
 
-    fmt="{n:>6}    {r:>10}    {r2:<14}    {centre}{s}"
+    fmt="{n:>6}    {r:>10}   {r2:<15}    {centre}{s}"
     print(fmt.format(n='n', r='r    ', r2='r^2', centre='centre', s=' ...'))
     for n in sorted(minimal.keys()):
       (r2, (x, y)) = minimal[n]
