@@ -70,7 +70,7 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with n > 0 and r < 4850
+      All minimal circles with r < 4875
 
 
   - Exhaustive search for circles with a minimum number of points
@@ -78,8 +78,8 @@ The list is composed from several methods:
 
     The following searches have currently been completed:
 
-      All minimal circles with r <  4850
-      All minimal circles with r <  5236 and n >  48
+      All minimal circles with r <  4875
+      All minimal circles with r <  5337 and n >  48
       All minimal circles with r <  8000 and n >  80
       All minimal circles with r < 13840 and n > 112
       All minimal circles with r < 14940 and n > 128
@@ -87,7 +87,7 @@ The list is composed from several methods:
       All minimal circles with r < 19600 and n > 240
       All minimal circles with r < 25600 and n > 320
       All minimal circles with r < 31100 and n > 464
-      All minimal circles with r < 35619 and n > 496
+      All minimal circles with r < 36300 and n > 496
 
   - Taking lattice circles centred on the origin passing through a
     number of lattice points and scaling down the circles to find smaller
