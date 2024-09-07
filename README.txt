@@ -79,9 +79,9 @@ The list is composed from several methods:
     The following searches have currently been completed:
 
       All minimal circles with r <  5000
-      All minimal circles with r <  6000 and n >  48
+      All minimal circles with r <  6185 and n >  48
       All minimal circles with r <  8000 and n >  80
-      All minimal circles with r < 13875 and n > 112
+      All minimal circles with r < 14000 and n > 112
       All minimal circles with r < 15000 and n > 128
       All minimal circles with r < 16030 and n > 160
       All minimal circles with r < 19600 and n > 240
