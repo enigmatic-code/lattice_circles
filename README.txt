@@ -80,7 +80,7 @@ The list is composed from several methods:
 
       All minimal circles with r <  5000
       All minimal circles with r <  6600 and n >  48
-      All minimal circles with r <  8200 and n >  64
+      All minimal circles with r <  8300 and n >  64
       All minimal circles with r < 14000 and n > 112
       All minimal circles with r < 15000 and n > 128
       All minimal circles with r < 16100 and n > 160
