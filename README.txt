@@ -80,13 +80,13 @@ The list is composed from several methods:
 
       All minimal circles with r <  5000
       All minimal circles with r <  6600 and n >  48
-      All minimal circles with r <  8800 and n >  64
+      All minimal circles with r <  8900 and n >  64
       All minimal circles with r < 14000 and n > 112
       All minimal circles with r < 15000 and n > 128
       All minimal circles with r < 16100 and n > 160
       All minimal circles with r < 19600 and n > 240
       All minimal circles with r < 25600 and n > 320
-      All minimal circles with r < 26200 and n > 352
+      All minimal circles with r < 26315 and n > 352
       All minimal circles with r < 31100 and n > 464
       All minimal circles with r < 40000 and n > 496
 
