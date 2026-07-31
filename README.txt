@@ -81,13 +81,13 @@ The list is composed from several methods:
       All minimal circles with r <  5000
       All minimal circles with r <  6600 and n >  48
       All minimal circles with r < 10600 and n >  64
-      All minimal circles with r < 11660 and n >  80
+      All minimal circles with r < 11700 and n >  80
       All minimal circles with r < 14000 and n > 112
       All minimal circles with r < 15000 and n > 128
       All minimal circles with r < 16100 and n > 160
       All minimal circles with r < 19600 and n > 240
       All minimal circles with r < 25600 and n > 320
-      All minimal circles with r < 31600 and n > 352
+      All minimal circles with r < 31725 and n > 352
       All minimal circles with r < 40000 and n > 496
 
   - Taking lattice circles centred on the origin passing through a
@@ -111,8 +111,7 @@ See also:
 
 
 I welcome any additions or improvements to the list (particularly for
-circles with n < 5001, or circles with r < 25e+9 (or preferably,
-both)).
+circles with n < 6000, or circles with r < 25e+9 (or preferably, both)).
 
 If anyone has any use for these circles I would be interested to hear
 about it.
